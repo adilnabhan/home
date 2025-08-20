@@ -1,0 +1,16 @@
+/* desend */
+div p {
+    background-color: aquamarine;
+}
+/* child */
+div > p {
+    background-color: lightgreen;
+}
+/* adjcent sibling */
+div + p {
+    background-color: lightblue;
+}
+/* genaral sibling */
+div ~ p {
+    background-color: lightcoral;
+}
